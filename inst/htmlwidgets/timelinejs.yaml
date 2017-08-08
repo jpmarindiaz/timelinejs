@@ -1,0 +1,6 @@
+dependencies:
+  - name: timelinejs
+    version: 0.1
+    src: htmlwidgets/lib/timeline
+    script: timeline.js
+    stylesheet: timeline.css

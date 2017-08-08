@@ -1,0 +1,14 @@
+Package: timelinejs
+Type: Package
+Title: R Interface to timelinejs visualization library
+Version: 0.1
+Date: 2017-08-07
+Author: Juan Pablo Marin Diaz
+Maintainer: Juan Pablo Marin Diaz <jpmarindiaz@gmail.com>
+Description: R Interface to timelinejs visualization library
+License: MIT + file LICENSE
+Depends:
+    R (>= 3.1.2),
+    htmlwidgets,
+    tidyverse
+RoxygenNote: 6.0.1
