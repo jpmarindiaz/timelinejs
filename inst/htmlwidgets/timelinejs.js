@@ -12,10 +12,11 @@ HTMLWidgets.widget({
 
         var data = x.data;
         var settings = x.settings;
-
+        console.log(x)
         if (x.debug) {
             console.log("settings", settings)
             console.log("data", data)
+            console.log("el.id", el.id)
         }
         
         // https://timeline.knightlab.com/docs/options.html
@@ -24,7 +25,7 @@ HTMLWidgets.widget({
             // timenav_height: 250
             // debug = true
         var settings = {
-            debug: true
+            debug: x.debug
         }
 
         timeline = new TL.Timeline(el.id, data, settings);
@@ -32,5 +33,6 @@ HTMLWidgets.widget({
     },
 
     resize: function(el, width, height, instance) {
+
     }
 });
